@@ -322,6 +322,8 @@ model_unetr_tf.compile(optimizer='adam',
 x_data = np.random.rand(10,4,96,96,96)
 y_data = np.random.rand(10,3,96,96,96)
 
-model_unetr_tf.fit(x_data,y_data,epochs=3)
+model_unetr_tf.build(x_data.shape[2:])
+model_unetr_tf.summary()
 
-# model_unetr_tf.summary()
+# model_unetr_tf.fit(x_data,y_data,epochs=3)
+

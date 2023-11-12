@@ -1,3 +1,5 @@
+# Tensorの生成、メモリ見積もり
+
 
 import torch
 import pynvml

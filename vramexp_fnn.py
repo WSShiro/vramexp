@@ -1,3 +1,7 @@
+# Forward Neural Networkのメモリ見積もりの試し
+# ref: https://github.com/py-img-recog/python_image_recognition
+
+
 from collections import deque
 import copy
 from tqdm import tqdm

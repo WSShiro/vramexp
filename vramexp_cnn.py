@@ -1,3 +1,6 @@
+# Convolutional Neural Networkのメモリ見積もり試し
+
+
 from typing import Callable
 
 import numpy as np
@@ -196,7 +199,6 @@ if __name__=="__main__":
                             "kernel_size",
                             "mult_adds",
                             "trainable"])
-    print(result)
 
     print("=== Estimated ===")
     print_memory_estimate2(model_cnn, [conf.batchsize] + conf.dim_input, 
